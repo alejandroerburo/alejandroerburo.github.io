@@ -1,0 +1,41 @@
+*{
+    color: #FFC857;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    min-height: 50rem;
+    background-image: linear-gradient( #000000 , #0F2245);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profilePicture{
+    border-radius: 6rem;
+}
+
+p{
+    font-size: 25px;
+}
+
+.profile h1{
+    font-size: larger;
+}
+
+span{
+    color: #FFC857;
+    border-radius: 0.7rem;
+    font-size: 30px;
+}
+
+.lorem p{
+    font-size: small;
+}
+
+#contact:hover{
+    background-color:  #D90368;
+}
